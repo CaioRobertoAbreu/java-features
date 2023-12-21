@@ -24,9 +24,10 @@ public class InstanceOf {
 
             /**
              * @implNote new version
+             *
              */
-            if (file instanceof MusicFile musicFile2)
-                musicFile2.play();
+            if (file instanceof MusicFile newFileTypeMusicFile)
+                newFileTypeMusicFile.play();
         }
     }
 }
